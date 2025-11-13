@@ -1,0 +1,355 @@
+[
+  {
+    "tree": 0,
+    "paths": [
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "bureau_score < 596",
+          "num_past_defaults < 2",
+          "bureau_score < 536",
+          "txn_count_3m < 55"
+        ],
+        "leaf": -0.0158849191
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "bureau_score < 596",
+          "num_past_defaults < 2",
+          "bureau_score < 536",
+          "txn_count_3m >= 55"
+        ],
+        "leaf": -0.113596283
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "bureau_score < 596",
+          "num_past_defaults < 2",
+          "bureau_score >= 536",
+          "savings_balance < 126599"
+        ],
+        "leaf": 0.00930484384
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "bureau_score < 596",
+          "num_past_defaults < 2",
+          "bureau_score >= 536",
+          "savings_balance >= 126599"
+        ],
+        "leaf": -0.0759165436
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "bureau_score < 596",
+          "num_past_defaults >= 2",
+          "txn_count_3m < 54"
+        ],
+        "leaf": -0.164336085
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "bureau_score < 596",
+          "num_past_defaults >= 2",
+          "txn_count_3m >= 54"
+        ],
+        "leaf": 0.00192577171
+      }
+    ]
+  },
+  {
+    "tree": 1,
+    "paths": [
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 26328",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "bureau_score < 604",
+          "employment_tenure < 6"
+        ],
+        "leaf": -0.0907152891
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 26328",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "bureau_score < 604",
+          "employment_tenure >= 6"
+        ],
+        "leaf": 0.00517354347
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 26328",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "bureau_score >= 604",
+          "num_past_defaults < 1"
+        ],
+        "leaf": 0.0330488682
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 26328",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "bureau_score >= 604",
+          "num_past_defaults >= 1"
+        ],
+        "leaf": -0.0204408541
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 26328",
+          "loan_amount < 500000",
+          "loan_term >= 60",
+          "bureau_score < 654",
+          "employment_tenure < 5"
+        ],
+        "leaf": -0.206987262
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 26328",
+          "loan_amount < 500000",
+          "loan_term >= 60",
+          "bureau_score < 654",
+          "employment_tenure >= 5"
+        ],
+        "leaf": -0.0850596055
+      }
+    ]
+  },
+  {
+    "tree": 2,
+    "paths": [
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 29320",
+          "loan_term < 60",
+          "loan_amount < 500000",
+          "num_past_defaults < 2",
+          "bureau_score < 604"
+        ],
+        "leaf": -0.0134844529
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 29320",
+          "loan_term < 60",
+          "loan_amount < 500000",
+          "num_past_defaults < 2",
+          "bureau_score >= 604"
+        ],
+        "leaf": 0.0320524499
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 29320",
+          "loan_term < 60",
+          "loan_amount < 500000",
+          "num_past_defaults >= 2",
+          "avg_daily_balance < 5069"
+        ],
+        "leaf": 0.00732105318
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 29320",
+          "loan_term < 60",
+          "loan_amount < 500000",
+          "num_past_defaults >= 2",
+          "avg_daily_balance >= 5069"
+        ],
+        "leaf": -0.11911235
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 29320",
+          "loan_term < 60",
+          "loan_amount >= 500000",
+          "avg_daily_balance < 77153",
+          "bureau_score < 696"
+        ],
+        "leaf": -0.157636091
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "avg_monthly_income < 29320",
+          "loan_term < 60",
+          "loan_amount >= 500000",
+          "avg_daily_balance < 77153",
+          "bureau_score >= 696"
+        ],
+        "leaf": 0.00103488087
+      }
+    ]
+  },
+  {
+    "tree": 3,
+    "paths": [
+      {
+        "conds": [
+          "avg_monthly_income < 38885",
+          "loan_term < 36",
+          "bureau_score < 660",
+          "avg_monthly_income < 19792",
+          "employment_tenure < 6",
+          "purpose_car < 1"
+        ],
+        "leaf": -0.0820173398
+      },
+      {
+        "conds": [
+          "avg_monthly_income < 38885",
+          "loan_term < 36",
+          "bureau_score < 660",
+          "avg_monthly_income < 19792",
+          "employment_tenure < 6",
+          "purpose_car >= 1"
+        ],
+        "leaf": 0.0282608662
+      },
+      {
+        "conds": [
+          "avg_monthly_income < 38885",
+          "loan_term < 36",
+          "bureau_score < 660",
+          "avg_monthly_income < 19792",
+          "employment_tenure >= 6",
+          "avg_daily_balance < 49059"
+        ],
+        "leaf": 0.0408324488
+      },
+      {
+        "conds": [
+          "avg_monthly_income < 38885",
+          "loan_term < 36",
+          "bureau_score < 660",
+          "avg_monthly_income < 19792",
+          "employment_tenure >= 6",
+          "avg_daily_balance >= 49059"
+        ],
+        "leaf": -0.0187228117
+      },
+      {
+        "conds": [
+          "avg_monthly_income < 38885",
+          "loan_term < 36",
+          "bureau_score < 660",
+          "avg_monthly_income >= 19792",
+          "num_past_defaults < 2",
+          "age < 67"
+        ],
+        "leaf": 0.0164375119
+      },
+      {
+        "conds": [
+          "avg_monthly_income < 38885",
+          "loan_term < 36",
+          "bureau_score < 660",
+          "avg_monthly_income >= 19792",
+          "num_past_defaults < 2",
+          "age >= 67"
+        ],
+        "leaf": -0.0270870086
+      }
+    ]
+  },
+  {
+    "tree": 4,
+    "paths": [
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "avg_monthly_income < 23414",
+          "num_past_defaults < 1",
+          "bureau_score < 655"
+        ],
+        "leaf": -0.00645609526
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "avg_monthly_income < 23414",
+          "num_past_defaults < 1",
+          "bureau_score >= 655"
+        ],
+        "leaf": 0.0425886177
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "avg_monthly_income < 23414",
+          "num_past_defaults >= 1",
+          "bureau_score < 678"
+        ],
+        "leaf": -0.106133573
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "avg_monthly_income < 23414",
+          "num_past_defaults >= 1",
+          "bureau_score >= 678"
+        ],
+        "leaf": 0.0103353402
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "avg_monthly_income >= 23414",
+          "num_past_defaults < 2",
+          "bureau_score < 568"
+        ],
+        "leaf": 0.0282484833
+      },
+      {
+        "conds": [
+          "loan_amount < 1000000",
+          "loan_amount < 500000",
+          "loan_term < 60",
+          "avg_monthly_income >= 23414",
+          "num_past_defaults < 2",
+          "bureau_score >= 568"
+        ],
+        "leaf": 0.0515904836
+      }
+    ]
+  }
+]
