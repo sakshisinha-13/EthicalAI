@@ -105,7 +105,7 @@ export default function App() {
   // Navbar
   const Navbar = () => (
     <nav className="navbar-main">
-      <div className="navbar-container">
+      <div className="navbar-container ">
         
         <ul className="navbar-links">
           <li>
