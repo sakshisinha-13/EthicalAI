@@ -23,7 +23,7 @@ origins = [
 ]
 
 app.add_middleware(
-    CORSMiddleware,
+    CORSMiddleware ,
     allow_origins=origins,        # or ["*"] for quick local testing (less secure)
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
